@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.26.3",
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-react": "^4.3.4",
+        "axios": "^1.7.9",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^1.0.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sass": "^1.56.1",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "mysql": "^2.18.1",
+        "react-owl-carousel": "^2.3.3",
+        "react-router-dom": "^7.1.1"
+    }
+}
