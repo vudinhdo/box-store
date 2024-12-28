@@ -64,3 +64,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Laravel + React Project with Docker
+
+This project is a full-stack application built with **Laravel** for the backend and **React** for the frontend, integrated with Docker for development and deployment.
+
+---
+
+## **Features**
+- **Backend**: Laravel (PHP 8.2, Composer, MySQL).
+- **Frontend**: React (Node.js, NPM, Vite for development).
+- **Docker**: Containerized environment for consistent development and deployment.
+- **Database**: MySQL as the primary database.
+- **Cache**: Redis for caching (optional).
+- **Package Management**: Composer (Laravel) and NPM/Yarn (React).
+
+---
+
+## **Prerequisites**
+Ensure you have the following installed:
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [Git](https://git-scm.com/)
+
+---
+
+## **Project Setup**
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/vudinhdo/box-store.git
+cd /box-store
