@@ -19,7 +19,7 @@ const Navigation = () => {
                     <div className="col-12">
                         <nav className="main-nav">
                             <Link to="/" className="logo">
-                                <img src="assets/images/logo.png" alt="Logo"/>
+                                <img src="/assets/images/logo.png" alt="Logo"/>
                             </Link>
                             {/* Menu Start */}
                             <ul className="nav">

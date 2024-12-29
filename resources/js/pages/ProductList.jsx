@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 const ProductList = () => {
 
@@ -47,7 +47,12 @@ const ProductList = () => {
                                         <div className="thumb">
                                             <div className="hover-content">
                                                 <ul>
-                                                    <li><a href="single-product.html"><i className="fa fa-eye"></i></a>
+                                                    <li>
+                                                        <Link
+                                                            to={`/product/${product.id}`}
+                                                        >
+                                                            <i className="fa fa-eye"></i>
+                                                        </Link>
                                                     </li>
                                                     <li><a href="single-product.html"><i className="fa fa-star"></i></a>
                                                     </li>

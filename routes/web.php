@@ -15,6 +15,7 @@ use App\Http\Controllers\CategoryController;
 */
 
 Route::get('/api/products', [ProductController::class, 'index']);
+Route::get('/api/product/{id}', [ProductController::class, 'show']);
 Route::get('/api/products/category/{id}', [ProductController::class, 'getByCategory']);
 Route::get('/categories', [CategoryController::class, 'index']);
 

@@ -6,7 +6,7 @@ const Footer = () => {
                     <div className="col-lg-3">
                         <div className="first-item">
                             <div className="logo">
-                                <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo"/>
+                                <img src="/assets/images/white-logo.png" alt="hexashop ecommerce templatemo"/>
                             </div>
 
                         </div>
